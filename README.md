@@ -1,1 +1,1 @@
-This is a repository on c programming language
+0x00. C - Hello, World
