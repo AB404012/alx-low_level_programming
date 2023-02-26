@@ -1,18 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Print the alhahabet.
- *
- * Return: Always 0 (success)
+ * main - prints alpha in lower case
+ * Return: Always 0
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char lc;
 
-	for (i = 0; i < 26; i++)
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(alp[i]);
+		putchar(lc);
 	}
 	putchar('\n');
 	return (0);
